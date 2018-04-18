@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: entities
+#
+#  id         :integer          not null, primary key
+#  title      :string
+#  title_en   :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  title_en: MyString
+
+two:
+  title: MyString
+  title_en: MyString
