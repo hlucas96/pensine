@@ -1,6 +1,9 @@
-<div class="col-sm-6 col-xs-12">
-  Fr :<br>
-  <%= quote.content %><br>
-  Chapitre <%= quote.chapter.id %> : <%= quote.chapter.title %><br>
-  <%= quote.chapter.entity.title %>
+<div class="col-sm-offset-3 col-sm-6 col-xs-12">
+  <blockquote>
+    <p><%= quote.content %></p>
+
+    <h5><%= quote.chapter.entity.title %> -
+      Chapitre <%= quote.chapter.id %> : <%= quote.chapter.title %>
+    </h5>
+  </blockquote>
 </div>

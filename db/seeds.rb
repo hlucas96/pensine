@@ -1,6 +1,6 @@
 tome1 = Entity.create(title: "Harry Potter à l'École des Sorciers", title_en: "Harry Potter and the Philosopher's Stone")
 
-t1_c1 = Chapter.create(entity: tome1, title: "Le survivant", title_en: "The Boy Who Lived", summary: "Whaa")
+t1_c1 = Chapter.create(entity: tome1, chapter_id: 1, title: "Le survivant", title_en: "The Boy Who Lived", summary: "Whaa")
 
 quote1 = Quote.create(content: "Mr et Mrs Dursley, qui habitaient au 4, Privet Drive, avaient toujours affirmé
   avec la plus grande fierté qu'ils étaient parfaitement normaux, merci pour eux. Jamais quiconque n'aurait

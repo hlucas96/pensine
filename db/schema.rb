@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 20180418151027) do
 
   create_table "chapters", force: :cascade do |t|
+    t.integer "chapter_id"
     t.string "title"
     t.string "title_en"
     t.string "summary"
