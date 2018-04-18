@@ -10,5 +10,4 @@
 #
 
 class Entity < ApplicationRecord
-  attr_accessible :title, :title_en
 end

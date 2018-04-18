@@ -10,6 +10,6 @@
 #
 
 class Quote < ApplicationRecord
-  attr_accessible :content, :content_en
+  belongs_to :chapter
 
 end

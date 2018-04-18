@@ -12,5 +12,5 @@
 #
 
 class Chapter < ApplicationRecord
-  attr_accessible :title, :title_en, :chapter_id, :summary
+  belongs_to :entity
 end

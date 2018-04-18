@@ -13,10 +13,10 @@
 ActiveRecord::Schema.define(version: 20180418151027) do
 
   create_table "chapters", force: :cascade do |t|
-    t.integer "chapter_id"
     t.string "title"
     t.string "title_en"
     t.string "summary"
+    t.integer "entity_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(version: 20180418151027) do
   create_table "quotes", force: :cascade do |t|
     t.string "content"
     t.string "content_en"
+    t.integer "chapter_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
