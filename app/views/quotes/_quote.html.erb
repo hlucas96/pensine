@@ -1,11 +1,15 @@
 <div class="col-sm-offset-3 col-sm-6 col-xs-12">
   <div class="quote">
     <blockquote>
-      <p><%= quote.content %></p>
+      <p><%= quote[:quote].content %></p>
 
-      <h5><%= quote.chapter.entity.title %> -
-        Chapitre <%= quote.chapter.id %> : <%= quote.chapter.title %>
+      <h5><%= quote[:quote].chapter.entity.title %> -
+        Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
       </h5>
+      <h6>
+        Personnages :
+        <%= render partial: "character_link", collection: quote[:related_characters] %>
+      </h6>
     </blockquote>
   </div>
 </div>
