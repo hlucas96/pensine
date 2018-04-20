@@ -20,18 +20,6 @@ quote2 = Quote.create(content: "Mr Dursley dirigeait la Grunnings, une entrepris
 
 char1 = Character.create name: "Vernon Dursley", name_en: "Vernon Dursley"
 char2 = Character.create name: "Pétunia Dursley", name_en: "Petunia Dursley"
-char3 = Character.create name: "Vernon Dursley", name_en: "Vernon Dursley"
-char4 = Character.create name: "Pétunia Dursley", name_en: "Petunia Dursley"
-char5 = Character.create name: "Vernon Dursley", name_en: "Vernon Dursley"
-char6 = Character.create name: "Pétunia Dursley", name_en: "Petunia Dursley"
-char7 = Character.create name: "Vernon Dursley", name_en: "Vernon Dursley"
-char8 = Character.create name: "Pétunia Dursley", name_en: "Petunia Dursley"
-char9 = Character.create name: "Vernon Dursley", name_en: "Vernon Dursley"
-char10 = Character.create name: "Pétunia Dursley", name_en: "Petunia Dursley"
-char11 = Character.create name: "Vernon Dursley", name_en: "Vernon Dursley"
-char12 = Character.create name: "Pétunia Dursley", name_en: "Petunia Dursley"
-char13 = Character.create name: "Vernon Dursley", name_en: "Vernon Dursley"
-char14 = Character.create name: "Pétunia Dursley", name_en: "Petunia Dursley"
 
 r_charac1 = RelatedCharacter.create quote: quote1, character: char1
 r_charac2 = RelatedCharacter.create quote: quote1, character: char2
