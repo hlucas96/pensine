@@ -1,2 +1,45 @@
-<h1>Quotes#new</h1>
-<p>Find me in app/views/quotes/new.html.erb</p>
+<div class="container">
+  <section class="row">
+    <div class="col-sm-offset-3 col-sm-6">
+      <h1>Ajouter une citation</h1>
+
+      <%= form_for :quote,  html: { multipart: true } do |f| %>
+        <!-- <%= f.hidden_field :new_quote_submit %> -->
+
+        <div class="form-group">
+          <label for="InputContent">Français :</label>
+          <%= f.text_area :content, rows: 7, class: "form-control", id: "quote_content" %>
+        </div>
+
+        <div class="form-group">
+          <label for="InputContentEn">Anglais :</label>
+          <%= f.text_area :content_en, rows: 7, class: "form-control", id: "quote_content_en" %>
+        </div>
+
+        <div class="form-group">
+          <label for="InputEntity">Entité (Livre/Film/Pièce) :</label>
+          <%= f.number_field :entity_id %>
+        </div>
+
+        <div class="form-group">
+          <label for="InputEntity">Chapitre :</label>
+          <%= f.number_field :chapter_id %>
+        </div>
+
+        <div style="form-group">
+          <label for="InputCharacter">Personnages concernés par la citation :</label>
+          <%= f.autocomplete_field :character_names, autocomplete_character_name_quotes_path %>
+        </div>
+
+        <div class="form-group">
+          <label for="Input">Personnages concernés par la citation :</label>
+          <%= f.select :characters_list, @characters, {},
+          {:multiple => true, :class => "form-control", :style => "width:450px;" } %>
+        </div>
+
+        <%= f.submit "Créer la citation", class: "btn btn-default" %>
+      <% end%>
+
+    </div>
+  </section>
+</div>
