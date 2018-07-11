@@ -15,10 +15,16 @@ gem 'turbolinks'
 
 #Bootstrap
 gem 'bootstrap-sass', '~> 3.2.0'
+gem 'rails_bootstrap_navbar'
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'rails-jquery-autocomplete'
+
+gem "paperclip", "~> 6.0.0"
+
+#Windows
+gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 
 group :development, :test do

@@ -6,10 +6,7 @@
       <h5><%= quote[:quote].chapter.entity.title %> -
         Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
       </h5>
-      <h6>
-        Personnages :
-        <%= render partial: "character_link", collection: quote[:related_characters] %>
-      </h6>
+      <%= render partial: "character_link", collection: quote[:related_characters] %>
     </blockquote>
   </div>
 </div>

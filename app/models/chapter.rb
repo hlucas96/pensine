@@ -7,6 +7,7 @@
 #  title      :string
 #  title_en   :string
 #  summary    :string
+#  entity_id  :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #

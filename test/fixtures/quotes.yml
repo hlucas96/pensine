@@ -5,6 +5,7 @@
 #  id         :integer          not null, primary key
 #  content    :string
 #  content_en :string
+#  chapter_id :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
