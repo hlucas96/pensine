@@ -1,7 +1,7 @@
 <div class="col-sm-offset-2 col-sm-8 col-xs-12">
   <div class="quote">
     <blockquote>
-      <p><%= quote[:quote].content %></p>
+      <p><%= sanitize quote[:quote].content %></p>
 
       <h5><%= quote[:quote].chapter.entity.title %> -
         Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
