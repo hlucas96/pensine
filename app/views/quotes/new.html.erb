@@ -3,7 +3,7 @@
     <div class="col-sm-offset-3 col-sm-6">
       <h1>Ajouter une citation</h1>
 
-      <%= form_for :quote,  html: { multipart: true } do |f| %>
+      <%= form_for :quote do |f| %>
         <!-- <%= f.hidden_field :new_quote_submit %> -->
 
         <div class="form-group">
@@ -26,16 +26,23 @@
           <%= f.number_field :chapter_id %>
         </div>
 
-        <div style="form-group">
-          <label for="InputCharacter">Personnages concernés par la citation :</label>
-          <%= f.autocomplete_field :character_names, autocomplete_character_name_quotes_path %>
-        </div>
-
         <div class="form-group">
+          <%= f.text_field :characters_list %>
+          <!-- <%= f.select :characters_list, @characters, {} %> -->
+          <!-- <label for="InputCharacter">Personnages concernés par la citation :</label>
+          <%= f.autocomplete_field :character_name, autocomplete_character_name_quotes_path %> -->
+        </div>
+        </script>
+        <%= link_to "Link", controller: :characters, action: :search, q: 'Ve' %>
+        <br><a title="characters">
+          gr
+        </a><br>
+
+        <!-- <div class="form-group">
           <label for="Input">Personnages concernés par la citation :</label>
           <%= f.select :characters_list, @characters, {},
-          {:multiple => true, :class => "form-control", :style => "width:450px;" } %>
-        </div>
+          {multiple: true, class: "form-control", style: "width:450px;" } %>
+        </div> -->
 
         <%= f.submit "Créer la citation", class: "btn btn-default" %>
       <% end%>

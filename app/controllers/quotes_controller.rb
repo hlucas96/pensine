@@ -1,5 +1,5 @@
 class QuotesController < ApplicationController
-  autocomplete :character, :name, full: true
+  autocomplete :character, :name
 
   def new
     @characters = Character.all.collect {|c| [c.name]}

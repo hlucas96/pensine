@@ -19,7 +19,7 @@ gem 'rails_bootstrap_navbar'
 
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
-gem 'rails-jquery-autocomplete'
+gem 'rails3-jquery-autocomplete'
 
 gem "paperclip", "~> 6.0.0"
 

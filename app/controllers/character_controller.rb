@@ -1,6 +1,15 @@
 class CharacterController < ApplicationController
+
   def create
     @character = Character.create(character_params)
+  end
+
+  def search
+    if params['q'].present?
+      @characters = Character.where(["name LIKE %?%", params['q']])
+      return @characters.first[:name]
+    end
+
   end
 
   private

@@ -13,7 +13,10 @@
 //= require bootstrap-sprockets
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ui/widgets/autocomplete
+//= require jquery-ui
 //= require autocomplete-rails
 //= require turbolinks
 //= require_tree .
+$("#quote_characters_list").keypress(function(){
+    $('#quote_characters_list').html("Hi !")
+});
