@@ -7,8 +7,7 @@
         Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
       </h5>
       <%= render partial: "character_link", collection: quote[:related_characters] %>
-      <%= link_to "Voir la citation", quote_path(id: quote[:quote].id) %>
-      <%= social_share_button_tag(quote[:quote].content, url: quote_path(id: quote[:quote].id)) %>
+      <%= social_share_button_tag truncate(quote[:quote].content, length: 230, separator: ' '), url: url_for(controller: "quotes", action: "show", id: quote[:quote].id, only_path: false) %>
     </blockquote>
   </div>
 </div>
