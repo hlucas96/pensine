@@ -9,7 +9,8 @@ Rails.application.routes.draw do
   get 'quotes/:id' => 'quotes#show'
   post 'quotes/new'
 
-  get 'characters/search'
+  get 'characters/search' => 'character#search'
+  get 'characters/:id' => 'character#show'
 
   get 'rating/vote'
 

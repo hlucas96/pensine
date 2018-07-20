@@ -12,6 +12,10 @@ class CharacterController < ApplicationController
 
   end
 
+  def show
+    @character = Character.find(params['id'])
+  end
+
   private
 
   # Use strong_parameters for attribute whitelisting

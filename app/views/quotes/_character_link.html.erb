@@ -1,4 +1,4 @@
-<a class="btn btn-default" type="button">
+<a class="btn btn-default" type="button" href="<%= url_for controller: "character", action: "show", id: character_link.character.id %>">
   <%= image_tag character_link.character.avatar.url %>
   <%= character_link.character.name %>
 </a>
