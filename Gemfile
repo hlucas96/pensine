@@ -17,6 +17,7 @@ gem 'turbolinks'
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'rails_bootstrap_navbar'
 
+
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'rails3-jquery-autocomplete'
@@ -51,7 +52,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #Social medias
 gem 'social-share-button'
-# gem 'shareable'
 
+# gem "bootstrap_glyphicons-rails"
 
 gem 'coffee-script-source', '1.8.0'

@@ -7,7 +7,22 @@
         Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
       </h5>
       <%= render partial: "character_link", collection: quote[:related_characters] %>
-      <%= social_share_button_tag truncate(quote[:quote].content, length: 230, separator: ' '), url: url_for(controller: "quotes", action: "show", id: quote[:quote].id, only_path: false) %>
+      <%= social_share_button_tag truncate(quote[:quote].content, length: 230, separator: ' '),
+      url: url_for(controller: "quotes", action: "show", id: quote[:quote].id, only_path: false) %>
+      <% if quote[:rating] == nil %>
+        Aucune note -
+      <% else %>
+        Moyenne : <%= number_with_precision quote[:rating], precision: 2 %>/5 -
+      <% end %>
+      <% i = 1 %>
+      <% quote[:rating].round(0).to_i.times do  %>
+        <%= link_to "★", controller: "rating", action: "vote", quote_id: quote[:quote].id, value: i %>
+        <% i = i + 1 %>
+      <% end %>
+      <% (5 - quote[:rating].round(0).to_i).times do  %>
+        <%= link_to "✩", controller: "rating", action: "vote", quote_id: quote[:quote].id, value: i %>
+        <% i = i + 1 %>
+      <% end %>
     </blockquote>
   </div>
 </div>

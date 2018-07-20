@@ -9,7 +9,9 @@ Rails.application.routes.draw do
   get 'quotes/:id' => 'quotes#show'
   post 'quotes/new'
 
-  get 'characters/search' 
+  get 'characters/search'
+
+  get 'rating/vote'
 
   resources :quotes do
     get :autocomplete_character_name, :on => :collection

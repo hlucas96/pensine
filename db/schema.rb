@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180709210500) do
+ActiveRecord::Schema.define(version: 20180719172433) do
 
   create_table "chapters", force: :cascade do |t|
     t.integer "chapter_id"
@@ -44,6 +44,13 @@ ActiveRecord::Schema.define(version: 20180709210500) do
     t.string "content"
     t.string "content_en"
     t.integer "chapter_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "ratings", force: :cascade do |t|
+    t.integer "quote_id"
+    t.integer "value"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

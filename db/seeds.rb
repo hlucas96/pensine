@@ -37,3 +37,11 @@ r_charac3 = RelatedCharacter.create quote: quote2, character: char1
 r_charac4 = RelatedCharacter.create quote: quote2, character: char2
 r_charac5 = RelatedCharacter.create quote: quote3, character: char3
 r_charac6 = RelatedCharacter.create quote: quote3, character: char4
+
+Rating.create quote: quote1, value: 2
+Rating.create quote: quote1, value: 1
+Rating.create quote: quote1, value: 3
+Rating.create quote: quote1, value: 3
+Rating.create quote: quote2, value: 2
+Rating.create quote: quote2, value: 2
+Rating.create quote: quote2, value: 5
