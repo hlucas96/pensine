@@ -6,7 +6,7 @@
       <h5><%= quote[:quote].chapter.entity.title %> -
         Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
       </h5>
-      <%= render partial: "character_link", collection: quote[:related_characters] %>
+      <%= render partial: "quotes/character_link", collection: quote[:related_characters] %>
       <%= social_share_button_tag truncate(quote[:quote].content, length: 230, separator: ' '),
       url: url_for(controller: "quotes", action: "show", id: quote[:quote].id, only_path: false) %>
       <% if quote[:rating] == nil %>

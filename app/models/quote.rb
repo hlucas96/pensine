@@ -12,5 +12,6 @@
 
 class Quote < ApplicationRecord
   belongs_to :chapter
+  has_many :related_character
 
 end

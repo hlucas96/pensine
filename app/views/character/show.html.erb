@@ -5,4 +5,7 @@
       Nom : <%= @character.name %>
     </div>
   </div>
+  <div class="row">
+    <%= render partial: "quotes/quote", collection: @quotes_tab %>
+  </div>
 </div>
