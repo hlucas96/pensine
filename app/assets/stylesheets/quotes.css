@@ -3,7 +3,7 @@
   They will automatically be included in application.css.
 */
 div.quote{
-    background-color: #FFC164;
+    background-color: rgb(255, 193, 100, 0.9);
 }
 .quote img{
     width: 40px;
