@@ -1,0 +1,414 @@
+"id","entity_id","chapter_id","title","title_en","summary"
+"0","1","1","Le survivant","The Boy Who Lived",
+"1","1","2","Une vitre disparaît","The Vanishing Glass",
+"2","1","3","Les lettres de nulle part","The Letters From No One",
+"3","1","4","Le gardien des Clés","The Keeper of the Keys",
+"4","1","5","Le Chemin de Traverse","Diagon Alley",
+"5","1","6","Rendez-vous sur la voie 9¾","The Journey from Platform Nine and Three-Quarters",
+"6","1","7","Le Choixpeau magique","The Sorting Hat",
+"7","1","8","Le maître des potions","The Potions Master",
+"8","1","9","Duel à minuit","The Midnight Duel",
+"9","1","10","Halloween","Halloween",
+"10","1","11","Le match de Quidditch","Quidditch",
+"11","1","12","Le Miroir du Riséd","The Mirror of Erised",
+"12","1","13","Nicolas Flamel","Nicolas Flamel",
+"13","1","14","Norbert le dragon","Norbert the Norwegian Ridgeback",
+"14","1","15","La Forêt interdite","The Forbidden Forest",
+"15","1","16","Sous la trappe","Through the Trapdoor",
+"16","1","17","L'homme aux deux visages","The Man with Two Faces",
+"17","2","1","Un très mauvais anniversaire","The Worst Birthday",
+"18","2","2","L'avertissement de Dobby","Dobby's Warning",
+"19","2","3","Le Terrier","The Burrow",
+"20","2","4","Chez Fleury et Bott","At Flourish and Blotts",
+"21","2","5","Le saule cogneur","The Whomping Willow",
+"22","2","6","Gilderoy Lockhart","Gilderoy Lockhart",
+"23","2","7","Sang-de-Bourbe et drôle de voix","Mudbloods and Murmurs",
+"24","2","8","L'anniversaire de mort","The Deathday Party",
+"25","2","9","L'avertissement","The Writing on the Wall",
+"26","2","10","Le Cognard fou","The Rogue Bludger",
+"27","2","11","Le club de duel","The Dueling Club",
+"28","2","12","Le Polynectar","The Polyjuice Potion",
+"29","2","13","Un journal très intime","The Very Secret Diary",
+"30","2","14","Cornelius Fudge","Cornelius Fudge",
+"31","2","15","Aragog","Aragog",
+"32","2","16","La Chambre des Secrets","The Chamber of Secrets",
+"33","2","17","L'héritier de Serpentard","The Heir of Slytherin",
+"34","2","18","La récompense de Dobby","Dobby's Reward",
+"35","3","1","Hibou express","Owl Post",
+"36","3","2","La grosse erreur de la tante Marge","Aunt Marge's Big Mistake",
+"37","3","3","Le Magicobus","The Knight Bus",
+"38","3","4","Le Chaudron baveur","The Leaky Cauldron",
+"39","3","5","Le Détraqueur","The Dementor",
+"40","3","6","Coups de griffes et feuilles de thé","Talons and Tea Leaves",
+"41","3","7","Un épouvantard dans la penderie","The Boggart in the Wardrobe",
+"42","3","8","La fuite de la grosse dame","Flight of the Fat Lady",
+"43","3","9","Sinistre défaite","Grim Defeat",
+"44","3","10","La carte du Maraudeur","The Marauder's Map",
+"45","3","11","L'Éclair de Feu","The Firebolt",
+"46","3","12","Le Patronus","The Patronus",
+"47","3","13","Gryffondor contre Serdaigle","Gryffindor Versus Ravenclaw",
+"48","3","14","La rancune de Rogue","Snape's Grudge",
+"49","3","15","La finale de Quidditch","The Quidditch Final",
+"50","3","16","La prédiction du professeur Trelawney","Professor Trelawney's Prediction",
+"51","3","17","Chat, rat et chien","Cat, Rat and Dog",
+"52","3","18","Lunard, Queudver, Patmol et Cornedrue","Moony, Wormtail, Padfoot, and Prongs",
+"53","3","19","Le serviteur de Voldemort","The Servant of Lord Voldemort",
+"54","3","20","Le baiser du Détraqueur","The Dementor's Kiss",
+"55","3","21","Le secret d'Hermione","Hermione's Secret",
+"56","3","22","Encore du courrier","Owl Post Again",
+"57","4","1","La maison des « Jeux du sort »","The Riddle House",
+"58","4","2","La cicatrice","The Scar",
+"59","4","3","L'invitation","The Invitation",
+"60","4","4","Retour au Terrier","Back to the Burrow",
+"61","4","5","Farces pour sorciers facétieux","Weasley's Wizard Wheezes",
+"62","4","6","Le Portoloin","The Portkey",
+"63","4","7","Verpey et Croupton","Bagman and Crouch",
+"64","4","8","La Coupe du Monde de Quidditch","The Quidditch World Cup",
+"65","4","9","La Marque des Ténèbres","The Dark Mark",
+"66","4","10","Tempête au ministère","Mayhem at the Ministry",
+"67","4","11","À bord du Poudlard Express","Aboard the Hogwarts Express",
+"68","4","12","Le Tournoi des Trois Sorciers","The Triwizard Tournament",
+"69","4","13","Maugrey Fol Œil","Mad-Eye Moody",
+"70","4","14","Les Sortilèges Impardonnables","The Unforgivable Curses",
+"71","4","15","Beauxbâtons et Durmstrang","Beauxbatons and Durmstrang",
+"72","4","16","La Coupe de Feu","The Goblet of Fire",
+"73","4","17","Les quatre champions","The Four Champions",
+"74","4","18","L'Examen des Baguettes","The Weighing of the Wands",
+"75","4","19","Le Magyar à pointes","The Hungarian Horntail",
+"76","4","20","La première tâche","The First Task",
+"77","4","21","Le Front de Libération des Elfes de Maison","The House-Elf Liberation Front",
+"78","4","22","La tâche inattendue","The Unexpected Task",
+"79","4","23","Le bal de Noël","The Yule Ball",
+"80","4","24","Le scoop de Rita Skeeter","Rita Skeeter's Scoop",
+"81","4","25","L'œuf et l'œil","The Egg and the Eye",
+"82","4","26","La deuxième tâche","The Second Task",
+"83","4","27","Le retour de Patmol","Padfoot Returns",
+"84","4","28","La folie de Mr Croupton","The Madness of Mr. Crouch",
+"85","4","29","Le rêve","The Dream",
+"86","4","30","La Pensine","The Pensieve",
+"87","4","31","La troisième tâche","The Third Task",
+"88","4","32","Les os, la chair et le sang","Flesh, Blood, and Bone",
+"89","4","33","Les Mangemorts","The Death Eaters",
+"90","4","34","Priori Incantatum","Priori Incantatem",
+"91","4","35","Veritaserum","Veritaserum",
+"92","4","36","La croisée des chemins","The Parting of the Ways",
+"93","4","37","Le commencement","The Beginning",
+"94","5","1","Dudley Détraqué","Dudley Demented",
+"95","5","2","Crises de bec","A Peck of Owls",
+"96","5","3","La garde rapprochée","The Advance Guard",
+"97","5","4","12, square Grimmaurd","Number Twelve, Grimmauld Place",
+"98","5","5","L'Ordre du Phénix","The Order of the Phoenix",
+"99","5","6","La noble et très ancienne maison des Black","The Noble and Most Ancient House of Black",
+"100","5","7","Le ministère de la Magie","The Ministry of Magic",
+"101","5","8","L'audience","The Hearing",
+"102","5","9","Les malheurs de Mrs Weasley","The Woes of Mrs. Weasley",
+"103","5","10","Luna Lovegood","Luna Lovegood",
+"104","5","11","La nouvelle chanson du Choixpeau magique","The Sorting Hat's New Song",
+"105","5","12","Le professeur Ombrage","Professor Umbridge",
+"106","5","13","Retenue douloureuse avec Dolores","Detention with Dolores",
+"107","5","14","Percy et Patmol","Percy and Padfoot",
+"108","5","15","La Grande Inquisitrice de Poudlard","The Hogwarts High Inquisitor",
+"109","5","16","À la Tête de Sanglier","In the Hog's Head",
+"110","5","17","Décret d'éducation numéro vingt-quatre","Educational Decree Number Twenty-Four",
+"111","5","18","L'armée de Dumbledore","Dumbledore's Army",
+"112","5","19","Le lion et le serpent","The Lion and the Serpent",
+"113","5","20","Le récit de Hagrid","Hagrid's Tale",
+"114","5","21","L'œil du serpent","The Eye of the Snake",
+"115","5","22","L'hôpital Ste Mangouste pour les maladies et blessures magiques","St. Mungo's Hospital for Magical Maladies and Injuries",
+"116","5","23","Noël dans la salle spéciale","Christmas on the Closed Ward",
+"117","5","24","Occlumancie","Occlumency",
+"118","5","25","Le scarabée sous contrôle","The Beetle at Bay",
+"119","5","26","Vu et imprévu","Seen and Unforeseen",
+"120","5","27","Le centaure et le cafard","The Centaur and the Sneak",
+"121","5","28","Le pire souvenir de Rogue","Snape's Worst Memory",
+"122","5","29","Conseils d'orientation","Careers Advice",
+"123","5","30","Graup","Grawp",
+"124","5","31","Buse","O.W.L.s",
+"125","5","32","Hors du feu","Out of the Fire",
+"126","5","33","Lutte et fugue","Fight and Flight",
+"127","5","34","Le Département des mystères","The Department of Mysteries",
+"128","5","35","Au-delà du voile","Beyond the Veil",
+"129","5","36","Le seul qu'il ait jamais craint","The Only One He Ever Feared",
+"130","5","37","La prophétie perdue","The Lost Prophecy",
+"131","5","38","La deuxième guerre commence","The Second War Begins",
+"132","6","1","L'autre ministre","The Other Minister",
+"133","6","2","L'impasse du Tisseur","Spinner's End",
+"134","6","3","Dernières volontés et mauvaise volonté","Will and Won't",
+"135","6","4","Horace Slughorn","Horace Slughorn",
+"136","6","5","Fleurk","An Excess of Phlegm",
+"137","6","6","L'escapade de Drago","Draco's Detour",
+"138","6","7","Le club de Slug","The Slug Club",
+"139","6","8","La victoire de Rogue","Snape Victorious",
+"140","6","9","Le Prince de Sang-Mêlé","The Half-Blood Prince",
+"141","6","10","La maison des Gaunt","The House of Gaunt",
+"142","6","11","La main secourable d'Hermione","Hermione's Helping Hand",
+"143","6","12","Argent et opale","Silver and Opals",
+"144","6","13","Le secret de Jedusor","The Secret Riddle",
+"145","6","14","Felix Felicis","Felix Felicis",
+"146","6","15","Le Serment Inviolable","The Unbreakable Vow",
+"147","6","16","Un Noël glacial","A Very Frosty Christmas",
+"148","6","17","Un souvenir brumeux","A Sluggish Memory",
+"149","6","18","Surprises d'anniversaire","Birthday Surprises",
+"150","6","19","Des elfes sur les talons","Elf Tails",
+"151","6","20","La requête de Lord Voldemort","Lord Voldemort's Request",
+"152","6","21","La salle introuvable","The Unknowable Room",
+"153","6","22","Après l'enterrement","After the Burial",
+"154","6","23","Les Horcruxes","Horcruxes",
+"155","6","24","Sectumsempra","Sectumsempra",
+"156","6","25","À l'écoute de la voyante","The Seer Overheard",
+"157","6","26","La caverne","The Cave",
+"158","6","27","La tour frappée par la foudre","The Lightning-Struck Tower",
+"159","6","28","La fuite du Prince","Flight of the Prince",
+"160","6","29","La lamentation du phénix","The Phoenix Lament",
+"161","6","30","La tombe blanche","The White Tomb",
+"162","7","1","L'ascension du Seigneur des Ténèbres","The Dark Lord Ascending",
+"163","7","2","In memoriam","In Memoriam",
+"164","7","3","Le départ des Dursley","The Dursleys Departing",
+"165","7","4","Les sept Potter","The Seven Potters",
+"166","7","5","Le guerrier tombé au combat","Fallen Warrior",
+"167","7","6","La goule en pyjama","The Ghoul in Pyjamas",
+"168","7","7","Le testament d'Albus Dumbledore","The Will of Albus Dumbledore",
+"169","7","8","Le mariage","The Wedding",
+"170","7","9","Un endroit où se cacher","A Place to Hide",
+"171","7","10","Le récit de Kreattur","Kreacher's Tale",
+"172","7","11","Corruption","The Bribe",
+"173","7","12","La magie est puissance","Magic is Might",
+"174","7","13","La Commission d'enregistrement des nés-Moldus","The Muggle-Born Registration Commission",
+"175","7","14","Le voleur","The Thief",
+"176","7","15","La revanche du gobelin","The Goblin's Revenge",
+"177","7","16","Godric's Hollow","Godric's Hollow",
+"178","7","17","Le secret de Bathilda","Bathilda's Secret",
+"179","7","18","Vie et mensonges d'Albus Dumbledore","The Life and Lies of Albus Dumbledore",
+"180","7","19","La biche argentée","The Silver Doe",
+"181","7","20","Xenophilius Lovegood","Xenophilius Lovegood",
+"182","7","21","Le Conte des trois frères","The Tale of the Three Brothers",
+"183","7","22","Les Reliques de la Mort","The Deathly Hallows",
+"184","7","23","Le manoir des Malefoy","Malfoy Manor",
+"185","7","24","Le fabricant de baguettes","The Wandmaker",
+"186","7","25","La Chaumière aux Coquillages","Shell Cottage",
+"187","7","26","Gringotts","Gringotts",
+"188","7","27","La dernière cachette","The Final Hiding Place",
+"189","7","28","Le miroir manquant","The Missing Mirror",
+"190","7","29","Le diadème perdu","The Lost Diadem",
+"191","7","30","Le renvoi de Severus Rogue","The Sacking of Severus Snape",
+"192","7","31","La bataille de Poudlard","The Battle of Hogwarts",
+"193","7","32","La Baguette de Sureau","The Elder Wand",
+"194","7","33","Le récit du Prince","The Prince's Tale",
+"195","7","34","Retour dans la forêt","The Forest Again",
+"196","7","35","King's Cross","King's Cross",
+"197","7","36","Le défaut du plan","The Flaw in the Plan",
+"198","7","37","Dix-neuf ans plus tard","Nineteen Years Later",
+"199","11","1",,,
+"200","12","1",,,
+"201","13","1",,,
+"202","14","1",,,
+"203","15","1",,,
+"204","16","1",,,
+"205","17","1",,,
+"206","18","1",,,
+"207","8","1",,,"La famille Potter arrive dans la gare de King's Cross et se prépare à passer à travers le mur qui mène à la voie 9 3/4. James raconte des mensonges à Albus sur Poudlard pour que le jeune première année stresse. Ses parents le rassurent."
+"208","8","1",,,"Les Potter rencontrent les Granger-Weasley sur le quai de la voie 9 3/4. Ron plaisante avec Lily Potter. Albus s'inquiète d'être réparti à Serpentard. Harry le rassure et lui dit que de toute façon, il pourra faire part de ses préférences au Choixpeau. Les enfants montent dans le train. Les parents regardent le train s'éloigner."
+"209","8","1",,,"Albus et Rose parcourent le Poudlard Express. Albus entre dans le compartiment qu'occupe Scorpius Malefoy, le fils de Drago. Rose n'apprécie pas vraiment la compagnie de Scorpius parce que son père était Mangemort. Scorpius révèle à Albus qu'une rumeur circule à son sujet : il serait le fils caché de Lord Voldemort. Rose veut changer de compartiment mais Albus décide de rester en compagnie de Scorpius."
+"210","8","1",,,"Les élèves sont répartis dans leur maison par le Choixpeau Magique. Rose va à Gryffondor, Scorpius à Seprentard et Albus... à Serpentard, à la surprise générale et après un léger temps d'attente.<br><br><i>Cours de vol avec Mme Bibine.</i><br>Albus est le seul élève à ne pas parvenir à faire décoller son balai du sol, provoquant les moqueries de ses camarades.<br><br><i>Un an plus Tard. Voie 9 3/4.</i><br>Albus ne veut pas que son père l'accompagne devant le train. Il ne veut pas que les gens voient Harry avec son ""fils Serpentard"". Albus part et Drago arrive devant Harry. Il implore Harry de demander au Ministère de réaffirmer que tous les Retourneur de Temps du Département des Mystères ont été détruits et ainsi de démentir la rumeur selon laquelle Scorpius est le fils de Voldemort. Harry refuse et dit à Drago de laisser faire le temps. Il ne veut pas alimenter une fois de plus la rumeur.<br><br>
+Albus et Rose sont sur le quai. Ils font semblant de bien s'entendre devant leurs parents. Scorpius arrive plein d'espoir de voir Rose. Rose part aussitôt.<br><br>
+Retour dans la Grande Salle où le professeur Mc Gonagall annonce que le nouvel attrapeur de Gryffodor est Rose Granger-Weasley. Scorpius applaudit et dit à Albus qu'elle est brillante. Albus ne comprend pas son enthousiasme pour Rose.<br><br>
+<i>Cours de potions.</i><br>Albus prépare une potion avec Scorpius. Leurs camarades les entourent et les insultent.<br><br><i>
+Voie 9 3/4. Début de la troisième année à Poudlard pour Albus.</i><br>
+Harry donne à Albus son autorisation pour aller à Pré-au-Lard, celui-ci la brûle aussitôt. Harry s'inquiète du comportement d'Albus qui s'isole de plus en plus des autres élèves.<br><br>
+Albus rejoint Scorpius qui est assis sur sa valise, triste. L'état de sa mère Astoria empire. Albus demande à Scorpius ce qu'il peut faire pour lui. Il répond : venir aux funérailles de sa mère et être son ami.<br><br><i>
+Dans la Grande Salle</i><br>
+Le Choixpeau envoie Lily Potter, la soeur d'Albus, à Gryffondor. Albus dit à Scorpius qu'il regrette d'être le fils d'Harry."
+"211","8","1",,,"<i>Été avant la quatrième année d'Albus à Poudlard.</i><br>
+Harry annonce à Hermione que Théodore Nott est en garde à vue. Il a été arrêté en possession d'un Retourneur de Temps qui semble pouvoir retourner dans un passé beaucoup plus lointain que les Retourneurs de Temps classiques. Hermione, en tant que Ministre de la Magie, va le garder. Hermione s'inquiète des nombreux indices (mouvements inquiétants de créatures magiques, arrestation de Nott...) qui laissent penser que les Forces du Mal tentent un retour. Les deux amis s'interrogent ensuite s'ils doivent privilégier leur famille ou leur travail. "
+"212","8","1",,,"Amos Diggory est chez les Potter. Il cherche à obtenir un rendez-vous avec Harry. Il a entendu une rumeur selon laquelle le Ministère de la Magie a mis la main sur un Retourneur de Temps. Il souhaite revenir dans le passé pour revoir son fils Cédric, mort durant le tournoi des Trois Sorciers en 1994. Harry refuse et prévient Amos des dangers du voyage dans le temps. Albus écoute la conversation du haut des escaliers. Delphi Diggory, la nièce d'Amos, fait la connaissance d'Albus. Elle lui dit qu'elle s'occupe de son oncle à la Maison St Oswald pour les Sorciers et les Sorcières Agées à Flagley-le-Haut. Elle comprend que ce ne doit pas être toujours facile d'être le fils d'Harry Potter. Elle invite Albus à venir la voir à Flagley-le-Haut. Elle quitte la maison des Potter avec Amos, en colère après le refus de Harry.
+"
+"213","8","1",,,"Ron a envoyé des cadeaux aux enfants Potter : Lily a reçu des Gnomes Péteurs, James un peigne qui rend les cheveux roses et Albus un philtre d'amour. Harry donne à Albus la vieille couverture dans laquelle il a été déposé lorsque Dumbledore l'a confié bébé aux Dursley. Cette couverture est le seul objet qui lui reste de sa mère et elle lui a été léguée par sa défunte tante Pétunia. Harry est triste qu'Albus ne comprenne pas la signification qu'a pour lui cet objet. Harry tente d'expliquer ensuite à quel point Poudlard est important pour lui mais Albus se moque de lui. Il finit par dire dans un élan de colère qu'il aurait préféré que Harry ne soit pas son père. Et Harry lui répond également qu'il souhaite parfois qu'Albus ne soit plus son fils. S'en suit un silence glacial. Puis, Harry tente de retirer ce qu'il vient de dire mais il est trop tard. Albus quitte la pièce en colère."
+"214","8","1",,,"Rêve où Harry revit le moment où Hagrid lui annonce qu'il est un sorcier dans la cabane au sommet du rocher en 1991. Le rêve se termine avec la voix de Voldemort qui murmure le nom d'Harry."
+"215","8","1",,,"Harry se réveille et Ginny comprend qu'il a fait un cauchemar. Ils discutent ensuite de la dispute entre Harry et Albus. Harry aurait préféré qu'il soit comme Lily et James. Ginny lui dit que ce n'est pas plus mal si Albus est différent de ses frères et sœurs. Elle pense qu'Albus veut voir le vrai Harry Potter. Elle lui demande ensuite si sa cicatrice lui fait mal. Il répond par un ""non"" timide et lui dit qu'elle ne lui avait pas fait mal depuis vingt-deux ans."
+"216","8","1",,,"<i>Début de la quatrième année.</i><br>Rose souhaite qu'elle et Albus redeviennent amis comme lorsqu'ils étaient enfant. Albus n'est pas emballé par l'idée. Rose lui fait part de la découverte par le Ministère d'un Retourneur de Temps. Il s'empresse de trouver Scorpius dans le train. Il le trouve et lui fait une étreinte. Les deux garçons se regardent gênés. Il lui fait part de son projet de ramener Cedric Diggory à la vie grâce à un Retourneur de Temps et ainsi réparer l'erreur de son père. Scorpius n'est pas emballé par l'idée mais finit par suivre Albus et ils vont sur le toit du train."
+"217","8","1",,,"Sur le toit du train, Albus et Scorpius tombent nez à nez avec la sorcière au chariot qui leur fait part de sa solitude : personne ne fait attention à elle dans ce train. Elle même ne connaît plus son nom. Elle leur dit qu'il est impossible de quitter le train. Ils parviennent tout de même à sauter au niveau du viaduc et un sortilège de Coussinage permet d'amortir leur chute."
+"218","8","1",,,"Harry et Hermione ont réunit de nombreux sorciers et sorcières au Ministère de la Magie pour un Rassemblement Général Extraordinaire. Ils annoncent qu'il y a du mouvement du côté des anciens partisans de Voldemort. Ils demandent aux personnes présentes dans l'Assemblée si elles ont remarqué quelque chose de particulier de leurs côtés. McGonagall prévient Hermione que certains ingrédients de la réserve des Potions ont été dérobés durant les vacances d'été à Poudlard. Hermione révèle ensuite que la cicatrice d'Harry recommence à lui faire mal, 22 ans après la bataille de Poudlard. Harry et Hermione demandent à ceux qui possèdent une Marque des Ténèbres s'ils sont au courant de quelque chose. Drago refuse qu'on stigmatise à nouveau sa famille et accuse Harry d'avoir inventé cette histoire pour revenir sur le devant de la scène. Il a peur que cette information renforce la rumeur à propos de la parenté de Scorpius. "
+"219","8","1",,,"Albus et Scorpius entrent dans la Maison St Oswald. Ils cherchent Amos. Ils retrouvent Delphi qui les accueille."
+"220","8","1",,,"Albus propose à Amos de sauver Cédric et lui confirme que son père possède un Retourneur de Temps. Amos se méfie mais Albus aidé par Dephi finit par le convaincre. Delphi accompagnera les garçons dans leur voyage dans le temps."
+"221","8","1",,,"Harry, Ron, Hermione et Ginny sont réunis dans la cuisine des Potter. On apprend qu'Astoria est décédée et que Drago continue à vouloir qu'Harry fâce un démenti à propos de la rumeur sur son fils. Hermione craint un retour de Voldemort. Un hibou surgit dans la pièce avec une lettre de Poudlard leur annonçant qu'Albus et Scorpius se sont enfuis du train."
+"222","8","1",,,"Delphi a préparé du Polynectar. Elle va se métamorphoser en Hermione, Albus en Ron et Scorpius en Harry. Ils se préparent à entrer au Ministère de la Magie."
+"223","8","1",,,"Harry, Ginny, Hermione et Drago sont réunis au Ministère de la Magie. Les quatre adultes s'inquiètent de la disparition des deux garçons. Le Département de la Justice Magique est sur le qui-vive et le Premier Ministre moldu a été informé de la disparition. Harry finit par expliquer à Drago son altercation avec Albus. Drago est furieux."
+"224","8","1",,,"Albus, Scorpius et Delphi tentent de pénétrer dans le Ministère de la Magie mais les réels Harry et Hermione arrivent. Albus sous les traits de Ron empêche Hermione de pénétrer dans son bureau, lui proposant de lui faire un autre enfant. Hermione finit pas partir."
+"225","8","1",,,"Scorpius, Albus et Delphi pénètrent dans le bureau d'Hermione. Ils s'emparent du Retourneur de temps après une série d'énigmes et après que les étagères se soient acharnées contre eux. "
+"226","8","2",,,"Harry rêve de lui petit. Dans son rêve, il est tiré du lit par Pétunia. Il lui raconte qu'il vient de faire un cauchemar à propos de la mort de ses parents. Pétunia ne cache pas son désintérêt. Albus apparaît soudain et regarde son père. Le rêve d'Harry se termine par la voix de Voldemort qui murmure son nom en Fourchelang."
+"227","8","2",,,"Harry se réveille en sursaut et raconte son rêve à Ginny. Il lui dit qu'il a entendu Voldemort et vu Albus avec un uniforme de Durmstrang. Il pense savoir grâce à ce rêve où peut se trouver Albus."
+"228","8","2",,,"Harry et Ginny sont devant McGonagall. Ils pensent qu'Albus est dans la Forêt Interdite. Ginny a demandé à la Gazette de publier un article pour inciter des volontaires à venir les aider à chercher Albus et Scorpius dans la Forêt Interdite. Hermione, Ron et Drago débarquent."
+"229","8","2",,,"Albus et Delphi discutent, ils sont enthousiastes à l'idée de remonter le temps. Scorpius les écoute mais est moins convaincu par cette idée. Delphi donne des robes de Durmstrang aux garçons. Cependant, Delphi ne peut pas se faire passer pour un élève de Dursmtrang : elle est trop âgée. Elle souhaite pour autant les accompagner dans leur voyage en se faisant passer pour une éleveuse de dragon. Albus et Scorpius trouvent cela trop risqué et refusent qu'elle les accompagne. Delphi quitte la Forêt Interdite."
+"230","8","2",,,"Harry fait la rencontre de Bane dans la Forêt Interdite. Celui-ci lui annonce que des nuages menaçants entourent Albus."
+"231","8","2",,,"Albus et Scorpius observe Poudlard. Scorpius pensait qu'il ne rentrerait jamais dans l'école. Mais Albus dit finalement que cette école n'est pas si bien quand on y est rentré. Ron approche soudain des deux garçons. Mais ces derniers s'empressent d'activer le Retourneur de Temps et disparaissent."
+"232","8","2",,,"Scorpius et Albus débarquent en 1994 durant la première tâche du tournoi des Trois Sorciers. Ludo Verpey commente le tournoi. Albus et Scorpius rencontrent Hermione (jeune) qu'ils confondent avec Rose, sa fille. Albus finit pas désarmer Cedric alors que celui-ci doit affronter le dragon. Mais Scorpius se rend compte qu'il y a un problème avec le Retourneur de Temps. Et soudain, les deux jeunes hommes reviennent dans le présent. Harry, Ron, Ginny et Drago viennent à leur rencontre. Soudain, Albus s'effondre à terre."
+"233","8","2",,,"Harry parle au portrait de Dumbledore devant son lit inconscient allongé sur un lit de l'infirmerie. Albus est blessé mais c'est comme si sa blessure s'était produite il y a 20 ans. Harry demande à Dumbledore ce qu'il pense du fait qu'il ait donné son nom à son fils. Dumbledore lui dit que cela peut représenter un trop gros poids pour les épaules d'un enfant. Harry demande des conseils à Dumbledore sur la manière avec laquelle il doit s'y prendre avec Albus. Dumbledore lui répond qu'il ne peut pas lui en donner : il n'a jamais eu d'enfant et il n'est qu'un portrait.<br><br>Soudain, Albus se réveille. Dumbledore quitte son portrait. Harry demande à Albus de s'éloigner de Scorpius qu'il interprète comme étant le ""nuage noir"" prédit par Bane. Il lui ordonne de ne plus le revoir et de rester dans la salle commune des Gryffondor. Albus s'étonne : il est à Serpentard. Harry lui répond de ne pas dire de bêtise. Albus se met à pleurer."
+"234","8","2",,,"Ron rejoint Harry et Albus dans les escaliers de Poudlard. Ron est venu voir son fils Panju qu'il a eu avec Padma Patil et qui a des ennuis à Poudlard. Scorpius les rejoint. Harry et Albus l'évitent. Mais Scorpius parvient quand même à s'adresser à Albus et lui dit que leur plan n'a pas fonctionné. Albus annonce à Scorpius qu'ils ne peuvent plus se voir désormais. Scorpius a le cœur brisé."
+"235","8","2",,,"Harry donne la carte du Maraudeur à McGonagall pour qu'elle surveille Albus et l'empêche de voir Scorpius. La directrice de Poudlard n'est pas emballée par l'idée. Harry s'énerve et menace d'utiliser ses pouvoirs au Ministère si elle ne surveille pas Albus. Elle finit par accepter."
+"237","8","2",,,"Albus arrive dans la classe de Défense contre les Forces du Mal. Il découvre qu'Hermione est le professeur de DFCM, qu'elle n'est pas Ministre de la Magie. Albus ne comprend plus rien, il pose des questions à Hermione sur son emploi, sur Rose. Elle s'énerve et enlève des points à Gryffondor."
+"238","8","2",,,"Par le jeu des escaliers magiques de Poudlard, Albus et Scorpius se rencontrent. Ils se regardent, malheureux..."
+"239","8","2",,,"Harry et Ginny discutent. Ginny lui reproche d'avoir été trop dur avec Albus. Malefoy débarque. Il demande à Harry la raison pour laquelle il veut séparer les deux garçons. Harry demande alors à Drago si Scorpius est vraiment son enfant. Un duel s'engage alors entre les deux hommes. Ginny revient dans la cuisine dévastée. Le duel s'arrête."
+"240","8","2",,,"Delphi rencontre Scorpius dans les couloirs de Poudlard. Elle lui annonce que Cédric est mort même après leur intervention dans le passé. Il était déterminé à gagner la seconde tâche après son échec dans la première. Scorpius ne comprend cependant pas pourquoi Ron et Hermione ne sont plus ensemble. Delphi lui dit qu'il manque beaucoup à Albus. Elle encourage Scorpius à revoir le jeune Gryffondor."
+"241","8","2",,,"Drago déclare à Harry que lui aussi ne peut plus parler à Scorpius depuis la mort d'Astoria. Drago confie également qu'il a toujours envié le trio que formaient Harry, Ron et Hermione. Ginny confie également qu'elle les enviait. Drago avertit Harry qu'il en train d'isoler Albus du reste du monde, qu'il est en train de créer un Tom Jedusor, Albus haïssant de plus en plus son père."
+"242","8","2",,,"Albus et Scorpius se retrouvent en secret à la Bibliothèque. Scorpius révèle à Albus pourquoi Hermione et Ron ne sont plus ensemble grâce à un livre écrit par Rita Skeeter : Hermione était accompagnée de Ron au Bal de Noël. Ils ont dansé de façon amicale puis Ron a dansé avec Padma et ils sont sortis ensemble. Et Hermione est ainsi restée seule. Elle avait décidé de ne pas accompagner Krum au bal car elle avait des doutes quant aux élèves de Dursmtrang qu'elle avait rencontré lors de la première tâche et qu'elle soupçonnait d'être pour quelque chose dans l'échec cuisant de Cédric.<br><br>Albus veut réparer tout cela en retournant dans le passé pour sauver Rose. Scorpius n'est pas d'accord : ils ont déjà fait beaucoup de mal. S'en suit un dispute entre les deux jeunes hommes. McGonagall arrive. Elle fait exprès de signaler sa présence laissant le temps à Abus et Scorpius de disparaître sous la cape d'invisibilité. Elle part.<br><br>Albus et Scorpius discutent maintenant de manière plus apaisée. Scorpius fait part à Albus de ses doutes concernant sa propre paternité. Albus les balaye d'un trait : comment Voldemort pourrait-il avoir un fils comme Scorpius ? Ils lient alors un pacte d'amitié. Albus convainc Scorpius de retourner dans le passé et d'humilier Cédric à la seconde tâche. Ils doivent pour cela se rendre au lac mais Albus ne peut pas sortir à l'extérieur des bâtiments de l'école."
+"243","8","2",,,"Hermione et Ron se rencontrent dans les couloirs. Ron est venu voir son fils Panju qui a eu un problème en cours de Potions. Ron complimente Hermione sur sa coupe de cheveux. Ron dit à Hermione qu'Albus pensait que lui et elle étaient mariés. Tous les deux trouvent cela vraiment ridicule."
+"244","8","2",,,"Harry, Ginny et Drago sont dans le bureau de McGonagall. Ils souhaitent voir leurs enfants pour se faire pardonner. McGonagall ouvre la Carte du Maraudeur et voit qu'ils sont ensemble dans les toilettes des filles du première étage."
+"245","8","2",,,"Albus et Scorpius élaborent un plan dans les toilettes des filles. Mimi Geignarde surgit soudain. Elle les aide à rejoindre le lac en leur montrant une canalisation. Ils vont utiliser de la Branchiflore pour respirer sous l'eau. Ils partent dans le tuyau. Au même moment, Harry, Ginny, Drago et McGonagall arrivent dans les toilettes. Harry comprend grâce à Mimi Geignarde que Albus et Scorpius voyagent à travers le temps."
+"246","8","2",,,"Albus et Scorpius remontent à nouveau le temps. Ils font subir à Cédric Diggory un sortilège de Gavage (celui-ci se met à gonfler et à s'élever dans les airs). Un feu d'artifice entoure Cédric et fait apparaître le message ""Ron aime Hermione"". C'est une véritable humiliation pour Cédric.<br><br>Aussitôt, Scorpius revient dans le temps présent où tout est plus sombre... Scorpius exhulte : ils ont réussi leur plan ! Mais Albus n'est pas là... C'est Dolorès Ombrage qui l'attend sur la rive du lac. Elle est la Directrice de Poudlard. Elle annonce à Scorpius que Harry Potter est mort durant la Bataille de Poudlard. Des Détraqueurs arrivent et la voix de Voldemort retentit. Ombrage accuse Scorpius d'avoir énervé les Détraqueurs alors qu'ils fêtent le Voldemort Day. Scorpius est abasourdi.<br><br>NOIR COMPLET SUR LA SCÈNE. "
+"247","8","3",,,"Scorpius est dans le bureau d'Ombrage. Elle lui apprend qu'il est un grand attrapeur de Quidditch et le couvre d'éloge sur son rôle dans le renvoi d'élèves en dilettante. Elle lui fait remarquer qu'il a changé de comportement depuis qu'elle l'a repêché dans le lac noir. Elle s'étonne de le voir poser soudain tant de questions sur Harry Potter et la Bataille de Poudlard."
+"248","8","3",,,"Scorpius discute avec Karl Jenkins, Yann Fredericks et Polly Chapman. Il se fait appeler le ""Scorpion Roi"" par ses camarades. Il se rend compte que contrairement au présent alternatif d'où il vient, tout le monde lui adresse la parole et qu'il est même très respecté et apprécié. Polly Chapman lui demande même de l'inviter au Bal du Sang. On lui fait également comprendre qu'il est à l'origine avec Karl et Yann d'un massacre de Sang-de-Bourbes. Les cris des Sang-de-Bourbes jaillissent des cachots. Scorpius est horrifié par ce qu'est devenu le monde et lui-même."
+"249","8","3",,,"Scorpius se rend dans le bureau de son père devenu Directeur du Département de la Justice Magique au Ministère de la Magie. Drago demande à son fils d'arrêter de l'humilier avec son obsession soudaine pour Harry Potter. Scorpius demande à son père s'il est responsable de toute cette violence contre les moldus et les opposants au régime, s'il est devenu un meurtrier. Scorpius s'interroge sur ce que sont réellement les Malefoy. Drago lui répond que lui, son fils, est plus proche d'Astoria, sa femme, qu'il ne le pensait. Il dit à Scorpius en le quittant de faire attention à sa vie car il ne lui reste plus que lui. "
+"250","8","3",,,"Scorpius se demande comment Cédric est devenu Mangemort et recherche donc dans les livres d'histoire de la Bibliothèque. Craig Bowker Jr. l'interrompt dans ses recherches. Il se demande ce que peut bien faire le ""Scorpion Roi"" avec un livre dans les mains. Craig est en train de finir le devoir de Potions de Scorpius donné par Rogue. Scorpius est étonné d'entendre que Rogue est encore en vie."
+"252","8","3",,,"Scorpius entre dans la salle de cours de Potions. Il est enchanté de faire la connaissance du ""Sauveur du Monde"". Rogue révèle à Scorpius que Diggory a tué Neville Londubat lors de la Bataille de Poudlard, l'empêchant ainsi de tuer Nagini, le dernier Horcruxe restant de Voldemort. Scorpius lui dit tout de son voyage dans le temps et tout ce qu'il sait de la position d'agent double que jouait Rogue auprès de Dumbledore. Rogue ne croît pas le jeune Malefoy jusqu'à ce qu'il lui parle de son amour pour Lily. Rogue est bouleversé. Il emmène Scorpius à travers une trappe dissimulée dans le sol de la salle de cours qui mène vers le Saule Cogneur."
+"253","8","3",,,"Scorpius rencontre Hermione et Ron. Ce sont des rebelles en fuite. Hermione et Ron le menacent. Rogue leur dit que Scorpius est de leur côté."
+"254","8","3",,,"Scorpius raconte toute l'histoire. Hermione et Ron sont bouche bée. Ils apprennent qu'ils ont eu des enfants ensemble et sont à nouveau surpris. Scorpius leur annonce aussi que Rogue est mort dans cet univers parallèle. Hermione veut remonter le temps et annuler le premier désarmement de Cédric par Albus lors de la première tâche. Elle active le Retourneur de Temps et retourne en 1994 avec Scorpius, Ron et Rogue."
+"255","8","3",,,"Ils arrivent sur les lieux de la Première Tâche. Hermione parvient à empêcher Albus de désarmer Cédric. Ils sont aussitôt aspirés dans le présent."
+"256","8","3",,,"Retour au présent. Ron est blessé à cause du voyage dans le temps. Les détraqueurs arrivent. Hermione, qui est la plus recherchée, leur dit de s'enfuir et de repartir dans le passé pour modifier lissue de la Seconde Tâche. Ron souhaite rester avec Hermione. Rogue et Scorpius s'enfuient. Les Détraqueurs se rapprochent. Hermione et Ron  se confient sur leur amour et s'embrassent. Les Détraqueurs les séparent et leur aspirent l'âme.<br><br>Scorpius et Rogue assistent de loin à ce spectacle et continuent à fuir. Rogue supplie  Scorpius de ne pas avoir peur, cela pourrait attirer les Détraqueurs. Il lui dit de penser à Albus tout comme lui-même pense à Lily, la mère d'Harry. Scorpius, même s'il a une meilleure position sociale dans ce monde, préfère abandonner son ""royaume"" pour retrouver Albus.<br><br>Ombrage arrive et annonce l'arrestation d'Hermione. Elle dit à Rogue et à Scorpius qu'on les a vu avec les deux rebelles. Ombrage suspectait le Maître des Potions depuis des années. S'engage alors un duel entre Rogue et Ombrage, Rogue se débarrasse de la directrice.<br><br>Ils sont à nouveau pourchassés par les Détraqueurs. Rogue fait alors apparaître son Patronus à la forme de biche. Les Détraqueurs donnent leur baiser à Rogue. Scorpius parvient à s'enfuir dans le passé. Il plonge dans le lac, puis en ressort avec Albus.<br><br>Les deux jeunes hommes se retrouvent. Albus s'étonne d'avoir vu Cédric grossir puis rétrécir. Albus a de nouveau la robe des Serpentards. Scorpius exulte : tout est redevenu comme avant. Harry, Ginny, Drago et McGonagall arrivent. Ils sont au courant des voyages des deux jeunes gens dans le passé. Scorpius se rend compte qu'il a perdu le Retourneur de Temps. Harry, Ginny, Drago et McGonagall exigent des explications."
+"257","8","3",,,"McGonagall est horrifiée par le récit d'Albus. Elle va punir sévèrement les deux garçons : retenues, pas de Pré-au-Lard, pas de Noël. Hermione débarque dans le bureau de la directrice. McGonagall est furieuse : comment la Ministre de la Magie a-t-elle pu laisser un Retourneur de Temps sans surveillance, dans un tiroir de bureau ? Elle ordonne à Albus et Scorpius de retrouver le Retourneur de Temps."
+"258","8","3",,,"Harry pénètre dans la chambre d'Albus. Il a négocié avec les êtres de l'eaux pour que ceux-ci les aident à retrouver le Retourneur de Temps. Harry et Albus discutent de la raison qui a poussé Albus à voyager dans le temps : il voulait réparer une injustice. Harry reproche à Albus son comportement. Lui même lorsqu'il était élève ne cherchait pas les aventures, c'était les ennuis qui venaient le chercher. Harry dit à Albus qu'il a eu peur pour lui. Les deux hommes tentent d'exprimer leur malaise."
+"259","8","3",,,"Le jeune Harry est avec sa tante Pétunia devant la tombe de ses parents. Pétunia raconte que ses parents étaient associables. Harry se demande alors pourquoi il y a autant de fleurs sur la tombe. Pétunia ment à nouveau et trouve une raison à cette profusion de fleurs. Voldemort intervient alors dans le rêve. Il dit que Harry est coupable de quelque chose, qu'Harry voit toujours à travers ses yeux, les yeux de Voldemort. Albus apparaît alors sous la cape de Voldemort, il appelle son père. Un hurlement retentit. Voldmort prononce dans une murmure le nom de Harry à nouveau."
+"260","8","3",,,"Harry fait part de son rêve où il a vu Albus et Voldemort à Ginny. Harry pressent que Voldemort pourrait être proche, il sent le danger qui approche..."
+"261","8","3",,,"Scorpius et Albus se retrouvent enfin. Scorpius exprime son soulagement d'être à nouveau le souffre-douleur de ses camarades. Il n'aimait pas être craint de ses camarades dans le monde parallèle qu'il vient de quitter. Albus se sent stupide d'avoir fait le second voyage dans le temps. Scorpius révèle à Albus qu'il était dans ses pensées lorsqu'il faisait face aux Détraqueurs. Il révèle également qu'il n'a pas perdu le Retourneur de Temps mais qu'il l'a en réalité gardé. Il ne souhaite pas le redonner au Ministère. Il veut que ce soit Albus et lui-même qui le détruisent."
+"262","8","3",,,"Harry et Ginny débarquent dans le dortoir des Serpentard, Craig Bowker Jr. et McGonagall sur leurs talons. Scorpius et Albus ont à nouveau disparu. Ginny reproche à Harry d'avoir été peut-être trop rude avec Albus. Elle ne sait pas si elle pourra pardonner une énième erreur de son mari avec son fils."
+"263","8","3",,,"Albus et Scorpius sont partis détruire le Retourneur de Temps. Delphi les retrouve à la volière. Albus et Scorpius lui explique qu'ils ne peuvent pas sauver Cédric à cause des conséquences désastreuses que peut causer un voyage dans le temps. Delphi comprend et accepte que le Retourneur de Temps soit détruit.<br><br>Albus remarque un tatouage représentant un Augurey sur la nuque de Delphi. Celle-ci a le Retourneur de Temps dans ses mains et Scorpius qui comprend peu à peu ce que peut signifier le tatouage souhaite récupérer l'objet. Il comprend que c'était elle l'Auguray dont les gens parlaient dans l'univers alternatif où Voldemort régnait.<br><br>Delphi réagit vite et ligote Scorpius. Albus tente de s'échapper mais il finit lui aussi par se faire ligoter. Elle casse alors les baguettes des deux sorciers en deux et annonce qu'elle est ""la réponse que ce monde a cherchée""."
+"264","8","3",,,"Ron est avec Hermione dans son bureau au Ministère. Il ne comprend qu'il existe des mondes où ils ne sont pas ensembles. Il lui fait alors une déclaration d'amour et lui demande de se ""remarier"" avec elle.<br><br>Harry, Ginny et Drago arrivent alors et annoncent la disparition de leurs enfants. Ron a vu les deux jeunes hommes à Pré-au-Lard. Il les a vu en compagnie d'une fille, qu'il interprète comme étant la copine d'Albus. Harry reconnait Delphi Diggory à la description de Ron."
+"265","8","3",,,"Harry et Drago se rendent dans maison de retraite d'Amos. Ils lui demandent où sont Albus et Scorpius. Amos s'étonne d'entendre parler de sa nièce : il n'a pas de nièce. Drago et Harry commencent à paniquer..."
+"266","8","3",,,"Delphi souhaite faire revenir le monde que Scorpius a connu et dans lequel Voldemort était au pouvoir. Elle souhaite empêcher la mot de Cédric dans la Troisième Tache. Elle parle d'une prophétie qui dit que c'est Albus, le fils d'Harry Potter, qui doit être celui qui humiliera Cédric, et que cette humiliation ne doit pas se faire sous le sortilège de l'Imperium. Albus doit être en pleine possession de ses moyens pour le faire. Delphi veut forcer Albus à le faire.<br><br>Pour cela, elle menace de s'en prendre à Scorpius. Elle commence à le torturer. Albus l'implore. Craig Bowker Jr. arrive alors. Albus lui dit d'aller chercher des secours. Mais Delphi lui lance un Sortilège de la Mort, il est tué sur le coup. Delphi emmène à nouveau Albus et Scorpius dans le passé. "
+"267","8","3",,,"Ils se retrouvent propulsés au cœur de la troisième tâche. Albus et Scorpius sont attachés. Ils essayent de gagner du temps avec Delphi. Le retour dans le passé dure seulement cinq minutes. Les deux garçons préfèrent être tué plutôt que de permettre à Delphi de réussir.<br><br>Aussitôt, quelqu'un désarme Delphi et la ligote. C'est Cédric Diggory. Il les libère de leurs liens. Albus dit à Cédric que son père l'aime. Cédric, étonné, finit par continuer son avancée dans le labyrinthe. Albus et Scorpius sont horrifiés à l'idée de le laisser aller à la mort.<br><br>Le Retourneur de Temps se met alors à teinter dans les mains de Delphi. Elle le détruit avant leur retour dans le présent. Ils se retrouvent coincés dans le passé. Delphi s'enfuit en s'envolant sans balai par dessus le labyrinthe. "
+"268","8","3",,,"Harry, Ginny, Hermione, Ron et Drago fouillent la chambre de Delphi. Celle-ci est inconnue sur les registres du ministère de la Magie. Harry entend des mots en Fourchelang qui s'échappent d'une lampe à huile. Il se met à parler en Fourchelang et la prophétie se met à apparaître sur les murs de la chambre. Ils prennent connaissance de la prophétie. Des mots apparaissent alors sur le mur : <i>""Je ferai renaître les Ténèbres. Je ramènerai mon père.""</i>. Delphi est en réalité la fille de Voldemort. Harry, Ginny, Hermione, Ron et Drago sont horrifiés."
+"269","8","4",,,"Hermione a réuni le Ministère dans la grande salle de réunion. Elle leur annonce que Voldemort a une fille et que cette fille est en fuite dans les couloirs du temps. S'en suit une violente dispute entre Hermione et McGonagall qui accuse la Ministre de négligeance. Drago se joint à Harry et Hermione sur l'estrade pour les défendre. Harry se résout à attendre que le passé soit modifié."
+"270","8","4",,,"Albus et Scorpius sont dans une gare. Ils apprennent qu'ils sont arrivés la veille de la mort de Lily et James Potter. Ils comprennent que Delphi veut tuer Harry Potter à la place de son père."
+"271","8","4",,,"Albus et Scorpius sont à Godric's Hollow. Ils aperçoivent James et Lily qui quittent leur maison avec Harry, bébé, dans une poussette."
+"272","8","4",,,"Harry est dans son bureau au Ministère. Le portrait de Dumbledore l'interpelle. Mais Harry le rejette, il n'a pas besoin de lui. Il reproche à Dumbledore de ne pas avoir toujours été présent pour lui, de l'avoir envoyé au combat. Il fait un parallèle avec Albus, son fils, qui doit mener une bataille pour Harry, comme celui-ci l'avait fait pour Dumbledore. Il lui reproche aussi de l'avoir laissé avec les Dursley pendant 10 ans. Dumbledore lui répond qu'il a fait cela parce qu'il aimait Harry et il était aveuglé par cet amour. Il finit par disparaître du portrait.<br><br>Drago débarque dans le bureau. Il dit à Harry qu'avec le retour de Delphi dans le passé, il se pourrait bien qu'il se retrouve ""à nouveau"" Directeur de la Justice Magique, même s'il n'a jamais rêvé d'un poste au Ministère, il préférait le Quidditch. Drago annonce ensuite à Harry qu'un Retourneur de Temps a été commandé à Theodore Nott par son père, Lucius. Il sort ce Retourneur de Temps de sa poche.<br><br>Drago explique également qu'Astoria était fragile et malade. Lorsque Scorpius est né, cela l'a considérablement affaiblie. Ils ont décidé de se cacher pour ménager les forces de sa femme. C'est à ce moment-là que les rumeurs ont commencé sur la lignée de Scorpius.<br><br>Harry refuse d'utiliser le Retourneur de Temps, pour autant : c'est trop dangereux, ils ne savent pas dans quelle époque revenir. Ils ne peuvent rien faire d'autre que d'espérer que leurs fils réussissent."
+"273","8","4",,,"Albus et Scorpius se demandent s'ils doivent parler à James et Lily, ou bien Dumbledore. Ils s'imaginent également vivre cachés durant 40 ans avant de prévenir Harry. Mais ils ont alors une meilleure idée pour signaler à leurs parents l'époque dans laquelle ils ont atterri : ils vont écrire un message sur la couverture d'Harry avec de la teinture de Demiguise qui va s'activer une fois en présence d'un philtre d'amour. Or, dans le présent, Albus avait renversé une partie du philtre d'amour offert par son oncle Ron sur cette couverture que Harry lui avait légué. Ils espèrent qu'Harry finisse par trouver leur message."
+"274","8","4",,,"Ginny s'excuse d'avoir désigner Harry comme responsable des agissements de son fils. Mais Harry pense qu'il est bel et bien responsable, il n'a plus d'espoir de revoir Albus vivant. Il jette alors un coup d’œil à la couverture : elle est trouée. Mais ces trous forment des mots.<br><br>Albus et Scorpius sont de l'autre côté de la scène et écrivent sur la couverture : ""Papa. A l'aide. Godric's Hollow. 31/10/81""<br><br>Harry comprend le message et donne rendez-vous à Hermione et Drago à Godric's Hollow."
+"275","8","4",,,"Harry, Ron, Hermione, Drago et Ginny parcourent le Godric's Hollow du présent. Ron n'a pas confiance en Drago. Il se demande s'il est vraiment leur allié après ce qu'il a dit à sa femme. Hermione lui répond qu'ils sont tous dans la même galère. Ils finissent par voyager dans le temps."
+"276","8","4",,,"Harry, Ginny, Drago, Hermione et Ron retrouvent Albus et Scorpius dans le passé. Ils s'organisent pour empêcher Delphi d'agir. Ils décident de se cacher dans l'église."
+"277","8","4",,,"Harry et Ginny regardent Albus dormir sur un banc de l'église. Ginny demande à Harry qu'après cela il soit plus présent pour Albus. Elle veut qu'il lui exprime son amour. Ginny se rend compte tout à coup que Delphi va tenter de dissuader Voldemort de tuer Harry, pour que la prophétie ne se réalise pas et pour que le mage noir soit encore plus puissant."
+"278","8","4",,,"Albus émet l'idée que l'un d'entre eux se transforme en Voldemort pour tendre un piège à Delphi. Hermione approuve et pense qu'ils peuvent parvenir à une métamorphose convaincante à eux tous. Ron se porte alors volontaire pour prendre l'apparence de Voldemort. Selon lui, il y aura moins de conséquences s'il est défiguré après la transformation... Drago et Hermione se portent également volontaires. Mais Harry insiste pour que ce soit lui : il parle Fourchelang et sait ce que c'est d'""être Voldemort"". Ils décident donc de métamorphoser Harry."
+"280","8","4",,,"Harry est devant l'église sous les traits de Voldemort, Delphi arrive. Elle lui annonce qu'elle est sa fille et qu'elle vient du futur. Elle réalise le ""vol de l'Auguray"" pour prouver à son père sa filiation. Elle tente également de le dissuader de tuer Harry. Harry/Voldemort lui dit de s'avancer dans la lumière (pour qu'elle soit dans le champ de vision d'Hermione et des autres).<br><br>La métamorphose commence à ne plus faire effet : les cheveux de Harry repoussent, il rapetisse... Delphi commence à comprendre le piège qui se renferme sur elle. Elle attaque Harry/Voldemort avec un sortilège et condamne les portes de l'église pour empêcher le reste du groupe d'aider Harry. Elle parvient à désarmer Harry, sans défense.<br><br>Albus surgit alors d'une trappe. Elle lui lance un Sortilège de la Mort mais Harry parvient à écarter Albus de sa trajectoire. S'engage alors un duel entre Harry et Delphi. Albus parvient à ouvrir les portes d'où Hermione, Ron, Ginny et Drago surgissent. Delphi se trouve dépassée par le nombre de ses adversaires et tombe à terre. Hermione la ligote.<br><br>Harry est furieux contre Delphi qui a blessé son fils. Delphi demande à Harry de voir son père. Harry refuse. Elle lui demande alors de la tuer ou de lui changer la mémoire. Ils refusent, ils vont la ramener dans le présent et elle sera emmenée à Azkaban.<br><br>Tout à coup, Voldemort arrive et apparaît dans le fond de la scène."
+"281","8","4",,,"Harry, Ginny, Hermione, Ron, Drago, Albus et Scorpius assistent impuissants au meurtre de James et Lily. Harry s'effondre de chagrin devant la scène.<br><br>Ils finissent par revenir dans le présent."
+"282","8","4",,,"Hagrid entre dans la maison en ruine des Potter après le double meurtre de James et Lily. Il se recueille devant les corps sans vie des Potter et emmène Harry avec lui."
+"283","8","4",,,"Retour au présent. Scorpius et Albus entrent surexcités dans une salle de classe. Scorpius vient de demander à Rose de sortir avec lui. Elle a refusé mais il garde espoir qu'ils se marient un jour ensemble. Albus et Scorpius discutent de leur goût pour la gente féminine. Rose arrive. Un malaise s'installe. Elle le surnomme ""Scorpion Roi"" et part. Albus annonce à Scorpius qu'il a un rendez-vous avec son père pour qu'ils parlent ensemble. Scorpius serre Albus dans ses bras."
+"284","8","4",,,"Harry et Albus marchent ensemble sur une colline. Ils discutent de la scolarité d'Albus, des parents de Harry, du retour de Voldemort dans la vie d'Harry.<br><br>Harry s'excuse devant Albus pour ce qu'il lui a dit. Harry confie ses peurs à Albus : sa peur du noir, des endroits exigus et des pigeons. Mais ce qui fait le plus peur à Harry, c'est d'être le père d'Albus. Il n'a jamais connu son père et c'est donc difficile pour lui de jouer ce rôle.<br><br>Harry montre à Albus qu'il peut être plus proche de lui que de James, son frère. En effet, Albus et Harry ont connu ""une lutte incessante"" durant leur enfance. Harry remercie Albus de l'avoir sauvé dans l'église. Il pense enfin avoir compris ce qu'il se passe dans le cœur de son fils. Harry rappelle à Albus ses deux prénoms : ""de grands hommes avec d'immenses défauts"" qui les ont peut-être ""rendus encore plus grands"".<br><br>Il révèle ensuite à Albus qu'il sont dans le cimetière où repose Cédric Diggory. Harry vient souvent ici pour dire qu'il est désolé. Harry et Albus regardent la tombe de Cédric, la main de Harry sur l'épaule de son fils."
+"285","21","0",,,
+"286","21","0",,,
+"287","21","0",,,
+"288","21","0",,,
+"289","21","0",,,
+"290","21","0",,,
+"291","21","0",,,
+"292","21","0",,,
+"293","21","0",,,
+"294","21","0",,,
+"295","21","0",,,
+"296","21","0",,,
+"297","21","0",,,
+"298","21","0",,,
+"299","21","0",,,
+"300","21","0",,,
+"301","21","0",,,
+"302","21","0",,,
+"303","21","0",,,
+"304","21","0",,,
+"305","21","0",,,
+"306","21","0",,,
+"307","21","0",,,
+"308","21","0",,,
+"309","21","0",,,
+"310","21","0",,,
+"311","21","0",,,
+"312","21","0",,,
+"313","21","0",,,
+"314","21","0",,,
+"315","21","0",,,
+"316","21","0",,,
+"317","21","0",,,
+"318","21","0",,,
+"319","21","0",,,
+"320","21","0",,,
+"321","21","0",,,
+"322","21","0",,,
+"323","21","0",,,
+"324","21","0",,,
+"325","21","0",,,
+"326","21","0",,,
+"327","21","0",,,
+"328","21","0",,,
+"329","21","0",,,
+"330","21","0",,,
+"331","21","0",,,
+"332","21","0",,,
+"333","21","0",,,
+"334","21","0",,,
+"335","21","0",,,
+"336","21","0",,,
+"337","21","0",,,
+"338","21","0",,,
+"339","21","0",,,
+"340","21","0",,,
+"341","21","0",,,
+"342","21","0",,,
+"343","21","0",,,
+"344","21","0",,,
+"345","21","0",,,
+"346","21","0",,,
+"347","21","0",,,
+"348","21","0",,,
+"349","21","0",,,
+"350","21","0",,,
+"351","21","0",,,
+"352","21","0",,,
+"353","21","0",,,
+"354","21","0",,,
+"355","21","0",,,
+"356","21","0",,,
+"357","21","0",,,
+"358","21","0",,,
+"359","21","0",,,
+"360","21","0",,,
+"361","21","0",,,
+"362","21","0",,,
+"363","21","0",,,
+"364","21","0",,,
+"365","21","0",,,
+"366","21","0",,,
+"367","21","0",,,
+"368","21","0",,,
+"369","21","0",,,
+"370","21","0",,,
+"371","21","0",,,
+"372","21","0",,,
+"373","21","0",,,
+"374","21","0",,,
+"375","21","0",,,
+"376","21","0",,,
+"377","21","0",,,
+"378","21","0",,,
+"379","21","0",,,
+"380","21","0",,,
+"381","21","0",,,
+"382","21","0",,,
+"383","21","0",,,
+"384","21","0",,,
+"385","21","0",,,
+"386","21","0",,,
+"387","21","0",,,
+"388","21","0",,,
+"389","21","0",,,
+"390","21","0",,,
+"391","21","0",,,
+"392","21","0",,,
+"393","21","0",,,
+"394","21","0",,,
+"395","21","0",,,
+"396","21","0",,,
+"397","21","0",,,
+"398","21","0",,,
+"399","21","0",,,
+"400","21","0",,,
+"401","21","0",,,
+"402","21","0",,,
+"403","21","0",,,
+"404","21","0",,,
+"405","21","0",,,
