@@ -20,7 +20,7 @@ class QuotesController < ApplicationController
   end
 
   def index
-    @quotes = Quote.joins(chapter: :entity)
+    @quotes = Quote.joins(chapter: :entity).limit(30)
     @quotes_tab = [];
     @quotes.each do |q|
       obj = {quote: q,

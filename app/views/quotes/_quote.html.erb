@@ -11,15 +11,17 @@
       url: url_for(controller: "quotes", action: "show", id: quote[:quote].id, only_path: false) %>
       <% if quote[:rating] == nil %>
         Aucune note -
+        <% rating = 0 %>
       <% else %>
         Moyenne : <%= number_with_precision quote[:rating], precision: 2 %>/5 -
+        <% rating = quote[:rating] %>
       <% end %>
       <% i = 1 %>
-      <% quote[:rating].round(0).to_i.times do  %>
+      <% rating.round(0).to_i.times do  %>
         <%= link_to "★", controller: "rating", action: "vote", quote_id: quote[:quote].id, value: i %>
         <% i = i + 1 %>
       <% end %>
-      <% (5 - quote[:rating].round(0).to_i).times do  %>
+      <% (5 - rating.round(0).to_i).times do  %>
         <%= link_to "✩", controller: "rating", action: "vote", quote_id: quote[:quote].id, value: i %>
         <% i = i + 1 %>
       <% end %>
