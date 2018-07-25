@@ -14,7 +14,6 @@
 #
 
 class Character < ApplicationRecord
-  has_attached_file :avatar
-  # , default_url: "/images/caracters/dursley_vernon.png"
+  has_attached_file :avatar, default_url: 'characters/missing.png'
   validates_attachment_content_type :avatar, content_type: ["image/png"]
 end
