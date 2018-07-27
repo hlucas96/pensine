@@ -12,7 +12,7 @@
       <h2>Les Personnages</h2>
       <div class="row">
         <% @CharacterTop.each do |character| %>
-          <div class="character-link col-xs-1">
+          <div class="character-link col-sm-1 col-xs-3">
             <a href="<%= url_for controller: :character, action: :show, id: character[0][:id] %>" >
               <%= image_tag character[0].avatar.url, class: "character-avatar img-circle" %>
               <h6><b><%= character[0].name %></b></h6>
