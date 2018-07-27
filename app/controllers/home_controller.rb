@@ -9,6 +9,6 @@ class HomeController < ApplicationController
       @quotes_tab.push obj
     end
 
-    @CharacterTop = RelatedCharacter.joins(:character).group(:character_id, :name).order("count_id desc").count(:id)
+    @CharacterTop = RelatedCharacter.joins(:character).group(:character).order("count_related_characters_id desc").limit(12).count("related_characters.id")
   end
 end
