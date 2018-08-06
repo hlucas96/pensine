@@ -35,15 +35,18 @@ def make_character
 end
 
 def make_quote
-    csv_text = File.read('lib/tasks/quote.csv')
+    csv_text = File.read('lib/tasks/quote_id.csv')
     csv = CSV.parse(csv_text, :headers => true)
+    csv_text_rating = File.read('lib/tasks/rating.csv')
+    csv_rating = CSV.parse(csv_text_rating, :headers => true)
+    i = 0
     csv.each do |row|
       if row['scene'] == '0'
         quote = Quote.create content: row['contenu'], content_en: row['english']
         chapter = Chapter.find_by(chapter_id: row['chapitre'], entity_id: row['tome'])
         quote.chapter = chapter
-        if row['characters'] != nil
-          characters = row['characters'].split(%r{,\s*})
+        if row['personnage'] != nil
+          characters = row['personnage'].split(%r{,\s*})
           characters.each do |character|
             c = Character.find_by(name: character)
             if c != nil
@@ -55,8 +58,14 @@ def make_quote
             end
           end
         end
+        while csv_rating[i]['id_cit'].to_i <= row['id'].to_i do
+            if csv_rating[i]['id_cit'].to_i == row['id'].to_i
+              r = Rating.create quote: quote, value: csv_rating[i]['note'], ip: csv_rating[i]['ip'], created_at: csv_rating[i]['date']
+            end
+            i = i + 1
+        end
+        print "Quote ", row['id'], " ", csv_rating[i]['id_cit'], "\n"
       end
-      #Character.create!(row.to_hash)
     end
 end
 
