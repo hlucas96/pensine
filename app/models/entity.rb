@@ -10,4 +10,5 @@
 #
 
 class Entity < ApplicationRecord
+  has_many :chapter
 end

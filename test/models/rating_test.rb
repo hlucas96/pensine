@@ -7,6 +7,7 @@
 #  value      :integer
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  ip         :string
 #
 
 require 'test_helper'
