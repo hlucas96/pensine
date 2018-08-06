@@ -5,8 +5,8 @@ namespace :db do
     #make_entity
     #make_chapter
     #make_character
-    # make_quote
-    make_character_pic
+    make_quote
+    #make_character_pic
   end
 end
 

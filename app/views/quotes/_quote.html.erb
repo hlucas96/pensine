@@ -3,7 +3,7 @@
     <blockquote>
       <p><%= sanitize quote[:quote].content %></p>
 
-      <h5><%= quote[:quote].chapter.entity.title %> -
+      <h5><%= link_to quote[:quote].chapter.entity.title, controller: "entity", action: "show", id: quote[:quote].chapter.entity_id %> -
         Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
       </h5>
       <%= render partial: "quotes/character_link", collection: quote[:related_characters] %>

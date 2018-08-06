@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'chapter/new'
 
   get 'entity/new'
+  get 'entity/:id' => 'entity#show'
 
   get 'quotes/new'
   get 'quotes/:id' => 'quotes#show'

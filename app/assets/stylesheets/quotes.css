@@ -5,6 +5,13 @@
 div.quote{
     background-color: rgb(255, 193, 100, 0.9);
 }
+.container-quote{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
 .quote img{
     width: 40px;
 }
