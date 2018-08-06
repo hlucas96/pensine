@@ -10,5 +10,6 @@ class HomeController < ApplicationController
     end
 
     @CharacterTop = RelatedCharacter.joins(:character).group(:character).order("count_related_characters_id desc").limit(12).count("related_characters.id")
+    @Entities = Chapter.joins(:quote).joins(:entity).group(:entity).count("quotes.id")
   end
 end

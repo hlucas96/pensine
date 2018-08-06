@@ -16,7 +16,22 @@
             <a href="<%= url_for controller: :character, action: :show, id: character[0][:id] %>" >
               <%= image_tag character[0].avatar.url, class: "character-avatar img-circle" %>
               <h6><b><%= character[0].name %></b></h6>
-              <h6><%= character[1] %> citations</h6>
+              <span class="badge"><%= character[1] %></span>
+            </a>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="jumbotron col-xs-12">
+      <h2>Les Tomes et Films</h2>
+      <div class="row">
+        <% @Entities.each do |entity| %>
+          <div class="entity-link col-sm-2 col-xs-3">
+            <a href="<%= url_for controller: :entity, action: :show, id: entity[0][:id] %>" >
+              <h6><b><%= entity[0].title %></b></h6>
+              <span class="badge"><%= entity[1] %></span>
             </a>
           </div>
         <% end %>
