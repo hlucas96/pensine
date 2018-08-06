@@ -5,7 +5,7 @@ class EntityController < ApplicationController
   def show
     @entity = Entity.find(params['id'])
 
-    @quotes = Quote.joins(chapter: :entity).joins(:related_character).where("entities.id = %s", params['id']).limit(20)
+    @quotes = Quote.joins(chapter: :entity).where("entities.id = %s", params['id']).limit(20)
     @quotes_tab = [];
     @quotes.each do |q|
       obj = {quote: q,
