@@ -15,3 +15,23 @@ div.quote{
 .quote img{
     width: 40px;
 }
+.col-xs-4.average-label{
+  padding-right: 0px;
+}
+.col-xs-8.average-content{
+  padding-left: 0px;
+  padding-right: 0px;
+  vertical-align: middle;
+}
+.progress.progress-average{
+  height: 20.9px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+.progress-bar.progress-bar-success.progress-bar-average{
+  font-size: 17px;
+  line-height: 19px;
+}
+.stars{
+  text-align: right;
+}
