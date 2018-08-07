@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'quotes' => 'quotes#index'
 
   get 'chapter/new'
+  get 'chapter/:id' => 'chapter#show'
 
   get 'entity/new'
   get 'entity/:id' => 'entity#show'

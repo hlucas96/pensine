@@ -3,8 +3,11 @@
     <blockquote>
       <p><%= sanitize quote[:quote].content %></p>
 
-      <h5><%= link_to quote[:quote].chapter.entity.title, controller: "entity", action: "show", id: quote[:quote].chapter.entity_id %> -
-        Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
+      <h5>
+        <%= link_to quote[:quote].chapter.entity.title, controller: "entity", action: "show", id: quote[:quote].chapter.entity_id %> -
+        <a href="<%= url_for controller: :chapter, action: :show, id: quote[:quote].chapter.id %>" >
+          Chapitre <%= quote[:quote].chapter.chapter_id %> : <%= quote[:quote].chapter.title %>
+        </a>
       </h5>
       <%= render partial: "quotes/character_link", collection: quote[:related_characters] %>
       <%= social_share_button_tag truncate(quote[:quote].content, length: 230, separator: ' '),

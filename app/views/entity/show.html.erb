@@ -15,7 +15,7 @@
         <div class="progress entity">
           <% pourcent = 1.0 / @chapters.length * 100 %>
           <% @chapters.each do |chapter| %>
-            <a href="<%= url_for controller: :chapter, id: chapter.id %>" 
+            <a href="<%= url_for controller: :chapter, action: :show, id: chapter.id %>" 
                 data-toggle="tooltip" data-placement="bottom"
                 title="Chapitre <%= chapter.chapter_id %> : <%= chapter.title %>"
             >
