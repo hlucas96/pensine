@@ -11,10 +11,17 @@
         </div>
       </div>
       <div class="row">
+        <h4>Les chapitres :</h4>
         <div class="progress">
-          <% pourcent = @chapters.length %>
-          <% @chapters.each do %>
-            <div class="progress-bar progress-bar-success" style="width: <%= pourcent %>%;">
+          <% pourcent = 1.0 / @chapters.length * 100 %>
+          <% @chapters.each do |chapter| %>
+            <div class="progress-bar
+              <% if chapter.id % 2 == 0 %>
+                progress-bar-info
+              <% else %>
+                progress-bar-error
+              <% end %>"
+              style="width: <%= pourcent %>%;">
             </div>
           <% end %>
         </div>
