@@ -1,4 +1,4 @@
-class EntityController < ApplicationController
+class EntityController < QuotesController
   def new
   end
 
@@ -6,12 +6,7 @@ class EntityController < ApplicationController
     @entity = Entity.find(params['id'])
 
     @quotes = Quote.joins(chapter: :entity).where("entities.id = %s", params['id']).limit(20)
-    @quotes_tab = [];
-    @quotes.each do |q|
-      obj = {quote: q,
-            related_characters: RelatedCharacter.joins(:character).where(quote_id: q.id),
-            rating: Rating.where(quote_id: q.id).average(:value)}
-      @quotes_tab.push obj
-    end
+    @quotes_tab = build_quotes(@quotes)
+    @chapters = Chapter.where(entity: @entity)
   end
 end

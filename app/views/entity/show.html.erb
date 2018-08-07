@@ -10,6 +10,15 @@
           <h5>Version originale : <i><%= @entity.title_en %></i></h5>
         </div>
       </div>
+      <div class="row">
+        <div class="progress">
+          <% pourcent = @chapters.length %>
+          <% @chapters.each do %>
+            <div class="progress-bar progress-bar-success" style="width: <%= pourcent %>%;">
+            </div>
+          <% end %>
+        </div>
+      </div>
     </div>
   </div>
   <%= render partial: "quotes/quote", collection: @quotes_tab %>

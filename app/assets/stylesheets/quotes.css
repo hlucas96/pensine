@@ -24,8 +24,13 @@ div.quote{
 }
 .progress.progress-average{
   height: 20.9px;
-  width: 100%;
+  width: 85%;
   margin-bottom: 0px;
+  float: left;
+}
+.badge.rating{
+  float: right;
+  height: 20.9px;
 }
 .progress-bar.progress-bar-success.progress-bar-average{
   font-size: 17px;

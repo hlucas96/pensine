@@ -21,13 +21,19 @@ class QuotesController < ApplicationController
 
   def index
     @quotes = Quote.joins(chapter: :entity).limit(30)
+    @quotes_tab = build_quotes(@quotes)
+  end
+
+  def build_quotes(quotes)
     @quotes_tab = [];
-    @quotes.each do |q|
+    quotes.each do |q|
       obj = {quote: q,
             related_characters: RelatedCharacter.joins(:character).where(quote_id: q.id),
-            rating: Rating.where(quote_id: q.id).average(:value)}
+            rating: Rating.where(quote_id: q.id).average(:value),
+            rating_count: Rating.where(quote_id: q.id).count(:value)}
       @quotes_tab.push obj
     end
+    return @quotes_tab
   end
 
   def show
