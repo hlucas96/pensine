@@ -1,0 +1,16 @@
+<div class="progress-bar entity
+  <% if chapter[:is_current] %>
+    progress-bar-danger
+  <% elsif chapter[:chapter].id % 2 == 0 %>
+    progress-bar-info
+  <% else %>
+    progress-bar-error
+  <% end %>"
+  style="width: <%= chapter[:pourcent] %>%;">
+  <a href="<%= url_for controller: "chapter", action: :show, id: chapter[:chapter].id %>"
+    data-toggle="tooltip" data-placement="bottom"
+    title="Chapitre <%= chapter[:chapter].chapter_id %> : <%= chapter[:chapter].title %>"
+    class="chapter-number" >
+    <%= chapter[:chapter].chapter_id %>
+  </a>
+</div>

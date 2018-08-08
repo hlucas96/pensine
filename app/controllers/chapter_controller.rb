@@ -1,4 +1,4 @@
-class ChapterController < QuotesController
+class ChapterController < EntityController
   def new
   end
   def show
@@ -6,5 +6,7 @@ class ChapterController < QuotesController
 
     @quotes = Quote.joins(chapter: :entity).where("chapters.id = %s", params['id']).limit(20)
     @quotes_tab = build_quotes(@quotes)
+
+    @chapters_tab = build_chapters(@chapter.entity, @chapter.chapter_id)
   end
 end

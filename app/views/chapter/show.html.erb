@@ -6,10 +6,16 @@
 
         </div>
         <div class="col-sm-9 col-xs-7">
-          <h4>Tome</h4>
-          <h2>Chapter <%= @chapter.chapter_id %></h2>
+          <h4><%= link_to @chapter.entity.title, controller: :entity, action: :show, id: @chapter.entity_id %></h4>
+          <h2>Chapitre <%= @chapter.chapter_id %></h2>
           <h3><%= @chapter.title %></h3>
           <h5>Version originale : <i><%= @chapter.title_en %></i></h5>
+        </div>
+        <div class="row">
+          <h4>Les chapitres de <%= @chapter.entity.title %>:</h4>
+          <div class="progress entity">
+            <%= render partial: "chapter", collection: @chapters_tab %>
+          </div>
         </div>
       </div>
     </div>

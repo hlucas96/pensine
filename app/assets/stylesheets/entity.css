@@ -5,3 +5,15 @@
 .progress.entity{
   height: 20px;
 }
+.progress-bar.entity.progress-bar-info{
+  line-height: 20px;
+}
+.progress-bar.entity.progress-bar-error{
+  line-height: 20px;
+}
+.progress-bar.entity.progress-bar-danger{
+  line-height: 20px;
+}
+a.chapter-number{
+  color: white;
+}

@@ -13,25 +13,10 @@
       <div class="row">
         <h4>Les chapitres :</h4>
         <div class="progress entity">
-          <% pourcent = 1.0 / @chapters.length * 100 %>
-          <% @chapters.each do |chapter| %>
-            <a href="<%= url_for controller: :chapter, action: :show, id: chapter.id %>" 
-                data-toggle="tooltip" data-placement="bottom"
-                title="Chapitre <%= chapter.chapter_id %> : <%= chapter.title %>"
-            >
-              <div class="progress-bar
-                <% if chapter.id % 2 == 0 %>
-                  progress-bar-info
-                <% else %>
-                  progress-bar-error
-                <% end %>"
-                style="width: <%= pourcent %>%;">
-              </div>
-            </a>
-          <% end %>
+          <%= render partial: "chapter", collection: @chapters_tab %>
         </div>
       </div>
     </div>
+    <%= render partial: "quotes/quote", collection: @quotes_tab %>
   </div>
-  <%= render partial: "quotes/quote", collection: @quotes_tab %>
 </div>
