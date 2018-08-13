@@ -32,7 +32,7 @@
             <a href="<%= url_for controller: :entity, action: :show, id: entity[0][:id] %>" >
               <%= image_tag entity[0].poster.url, class: "img-thumbnail" %>
               <h6><b><%= entity[0].title %></b></h6>
-              <span class="badge"><%= entity[1] %></span>
+              <span class="badge"><%= entity[1]%> citations</span>
             </a>
           </div>
         <% end %>
