@@ -5,8 +5,9 @@ namespace :db do
     #make_entity
     #make_chapter
     #make_character
-    make_quote
+    # make_quote
     #make_character_pic
+    make_entity_pic
   end
 end
 
@@ -88,6 +89,20 @@ def make_character_pic
       end
     end
 end
+
+def make_entity_pic
+    path = "app/assets/images/entities"
+    Dir.foreach(path) do |file|
+      id = File.basename(file).sub("hp", " ").sub(".png", "").sub(".jpg","")
+      e = Entity.find_by(id: id)
+      if e != nil
+        e.poster = File.new(File.absolute_path(path + '/' + file))
+        e.save!
+      end
+    end
+end
+
+
     # csv_text = File.read('lib/tasks/quotes_clean.csv')
     # csv = CSV.parse(csv_text, :headers => true)
     # csv.each do |row|

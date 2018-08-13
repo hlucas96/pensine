@@ -11,4 +11,6 @@
 
 class Entity < ApplicationRecord
   has_many :chapter
+  has_attached_file :poster
+  validates_attachment_content_type :poster, content_type: /\Aimage/
 end

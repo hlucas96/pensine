@@ -14,7 +14,7 @@
         <% @CharacterTop.each do |character| %>
           <div class="character-link col-sm-1 col-xs-3">
             <a href="<%= url_for controller: :character, action: :show, id: character[0][:id] %>" >
-              <%= image_tag character[0].avatar.url, class: "character-avatar img-circle" %>
+              <%= image_tag character[0].avatar.url, class: "character-avatar img-circle img-thumbnail" %>
               <h6><b><%= character[0].name %></b></h6>
               <span class="badge"><%= character[1] %></span>
             </a>
@@ -30,6 +30,7 @@
         <% @Entities.each do |entity| %>
           <div class="entity-link col-sm-2 col-xs-3">
             <a href="<%= url_for controller: :entity, action: :show, id: entity[0][:id] %>" >
+              <%= image_tag entity[0].poster.url, class: "img-thumbnail" %>
               <h6><b><%= entity[0].title %></b></h6>
               <span class="badge"><%= entity[1] %></span>
             </a>
