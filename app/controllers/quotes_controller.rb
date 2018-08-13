@@ -20,7 +20,7 @@ class QuotesController < ApplicationController
   end
 
   def index
-    @quotes = Quote.joins(chapter: :entity).limit(30)
+    @quotes = Quote.joins(chapter: :entity).order(:chapter_id).limit(30)
     @quotes_tab = build_quotes(@quotes)
   end
 

@@ -15,7 +15,7 @@ class CharacterController < QuotesController
   def show
     @character = Character.find(params['id'])
 
-    @quotes = Quote.joins(chapter: :entity).joins(:related_character).where("related_characters.character_id = %s", params['id']).limit(20)
+    @quotes = Quote.joins(chapter: :entity).order(:chapter_id).joins(:related_character).where("related_characters.character_id = %s", params['id']).limit(20)
     @quotes_tab = build_quotes(@quotes)
   end
 
