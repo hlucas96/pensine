@@ -56,3 +56,5 @@ gem 'social-share-button'
 # gem "bootstrap_glyphicons-rails"
 
 gem 'coffee-script-source', '1.8.0'
+
+gem 'devise'
