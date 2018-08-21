@@ -8,6 +8,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #  ip         :string
+#  user_id    :integer
 #
 
 class Rating < ApplicationRecord
