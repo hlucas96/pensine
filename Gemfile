@@ -57,4 +57,9 @@ gem 'social-share-button'
 
 gem 'coffee-script-source', '1.8.0'
 
+# authentification module for users
 gem 'devise'
+
+# comments on quote model
+gem 'commontator', '~> 5.1.0'
+gem 'acts_as_votable'

@@ -38,6 +38,7 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    acts_as_votable (0.11.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     annotate (2.7.4)
@@ -70,6 +71,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.8.0)
+    commontator (5.1.0)
+      jquery-rails
+      rails (>= 5.0)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     devise (4.5.0)
@@ -220,11 +224,13 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  acts_as_votable
   annotate
   bootstrap-sass (~> 3.2.0)
   byebug
   capybara (~> 2.13)
   coffee-script-source (= 1.8.0)
+  commontator (~> 5.1.0)
   devise
   jquery-rails
   jquery-ui-rails

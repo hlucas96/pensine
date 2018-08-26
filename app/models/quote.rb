@@ -14,4 +14,5 @@ class Quote < ApplicationRecord
   belongs_to :chapter
   has_many :related_character
 
+  acts_as_commontable dependent: :destroy
 end

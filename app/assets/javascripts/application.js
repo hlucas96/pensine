@@ -18,6 +18,7 @@
 //= require turbolinks
 //= require social-share-button
 //= require_tree .
+
 $("#quote_characters_list").keypress(function(){
     $('#quote_characters_list').html("Hi !")
 });
